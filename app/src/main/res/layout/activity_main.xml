@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:paddingTop="20dp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/textViewStateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:text="	Lorem ipsum tristique ad nostra nisl mi phasellus vel posuere ut libero, leo diam dictumst tincidunt auctor risus a lobortis pulvinar maecenas, nisi donec vel malesuada eget lacus sit praesent adipiscing senectus. tempor duis viverra cursus netus tellus augue commodo praesent aliquet rhoncus ut vel tristique class consectetur, vehicula curabitur nec nostra phasellus nostra integer phasellus amet cursus purus velit mattis. erat integer faucibus sociosqu aliquam quis proin tortor ligula pellentesque venenatis augue interdum, ipsum vitae dictum dapibus nisi suscipit semper consectetur tincidunt lectus dolor. ipsum dapibus at urna posuere ad taciti iaculis eget, venenatis commodo egestas nulla eleifend orci. " />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#009688"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:id="@+id/textViewAreaLabel"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Área" />
+
+    <TextView
+        android:id="@+id/textViewArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewPopulationLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="População" />
+
+    <TextView
+        android:id="@+id/textViewPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
